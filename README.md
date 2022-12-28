@@ -5,9 +5,9 @@
 ![image](https://user-images.githubusercontent.com/115881685/209539104-72e6b752-151f-4701-99e4-ec5b38161ba7.png)
 
 ## Prerequisite
--Aws account
+- Aws account
 
--Github aacount
+- Github aacount
 
 This project is divided into two parts:
 
