@@ -4,6 +4,10 @@
 
 ![image](https://user-images.githubusercontent.com/115881685/209539104-72e6b752-151f-4701-99e4-ec5b38161ba7.png)
 
+## Prerequisite
+-Aws account
+-Github aacount
+
 This project is divided into two parts:
 
 ## Part 1, 
@@ -13,8 +17,8 @@ This project is divided into two parts:
 * Install CloudFormation Plugin
 * Run Cft using using Cft Plugin
 
-Click the link below for a short video tutorial on how to execute the project
-[part one](https://youtu.be/b6z6i3Lrp04)
+Click this link: [part one](https://youtu.be/b6z6i3Lrp04) for a short video tutorial on how to execute the project
+
 
 ## Part 2
 * Install AWS CLI
@@ -23,6 +27,6 @@ Click the link below for a short video tutorial on how to execute the project
 * Jenkins File
 * Run Cft using AWS CLI Commands
 
-Click the link below for instructions on part 2 of the project.
-[Part 2](https://youtu.be/XnRqGMSCQyY)
+Click this link: [Part two](https://youtu.be/XnRqGMSCQyY) for instructions on how to execute the second part of the project.
+
 
