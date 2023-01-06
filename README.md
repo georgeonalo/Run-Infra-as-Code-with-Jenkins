@@ -21,7 +21,7 @@ In this project, we are going to carry out the following:
 
 ## step 1 install jenkins on an EC2 server
 
-log into your * aws console and go to ec2 service, click on * create instance, name the instance * jenkins.
+log into your *aws console and go to ec2 service, click on *create instance, name the instance *jenkins.
 
 ![jenkins  1](https://user-images.githubusercontent.com/115881685/210998997-336f1467-3281-41be-830a-036d66fe926b.JPG)
 
