@@ -170,7 +170,26 @@ Now in other to successfully create cloudformation stack, we need to grant our *
 
 ![jenkins 20](https://user-images.githubusercontent.com/115881685/211054934-eed45148-b9e3-4b3f-8079-0a4e3003db99.JPG)
 
-## Step 8
+## Step 8: Create a jenkins job
+
+Go to **jenkins dashboard**, click **New item**. in the **Enter an item name** field, type **"pipeline-s3-cft"**. click **pipeline** and hit **ok**
+
+
+![22](https://user-images.githubusercontent.com/115881685/211056985-f0f84623-0f73-46c6-a8e5-707f8469db62.JPG)
+
+Scroll down to pipeline under Advanced Project Options, click the Defination field and select pipeline script from SCM, under SCM, select Git, copy the cloudformation url from your repository and paste it in the job, and then add credentials. click save.
+
+![23](https://user-images.githubusercontent.com/115881685/211058998-a5b730d6-f573-47d5-95f8-4054c9434c4a.JPG)
+![24](https://user-images.githubusercontent.com/115881685/211059058-c74acd77-88c0-49ea-8310-1025817e2818.JPG)
+
+Click on Build Now, so that the job can be manually triggered.
+
+![25](https://user-images.githubusercontent.com/115881685/211059297-45aea607-79d0-4dca-9772-cc916cd0a312.JPG)
+
+
+
+
+
 
 
 
