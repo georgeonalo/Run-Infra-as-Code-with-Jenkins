@@ -29,7 +29,7 @@ scroll down and choose the **amazon linux 2 AMI under the free tier
 
 ![jenkins  2](https://user-images.githubusercontent.com/115881685/211000502-994a3b18-2bb5-468a-bc5d-3eb2d716b98c.JPG)
 
-scroll down and select the **t2.micro under instance type
+scroll down and select the **t2.micro under instance type**
 
 ![jenkins 3](https://user-images.githubusercontent.com/115881685/211000795-bb27bdcb-1cef-479f-a559-31faff089f8b.JPG)
 
@@ -38,7 +38,7 @@ Lastly create your **key pairs(for ssh)**, **security group** and click on the o
 ![jenkins 4](https://user-images.githubusercontent.com/115881685/211001358-91c9b9cb-ba6f-42e4-aef9-12dd6dea5843.JPG)
 ![jenkins 4 J](https://user-images.githubusercontent.com/115881685/211001399-97e82284-2a18-4818-b898-febb4674be31.JPG)
 
-Go to the EC2 home page to see your instance being created, when the instance is finally up, we are going to connect to it via **browser-based SSH connection
+Go to the EC2 home page to see your instance being created, when the instance is finally up, we are going to connect to it via **browser-based SSH connection**
 
 ![jenkins 5](https://user-images.githubusercontent.com/115881685/211002433-47357e2a-83f9-4d92-a58c-f764ea84aed4.JPG)
 ![jenkins 6](https://user-images.githubusercontent.com/115881685/211002497-f08175f7-d2d0-4b1d-9ed7-5f1bf0246a2e.JPG)
