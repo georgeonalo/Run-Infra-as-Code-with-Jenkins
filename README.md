@@ -93,6 +93,55 @@ Once the installation is complete, the **Create First Admin User** will open. En
 Once this is done, you will be taken to the home page.
 ![welcome to jenkins 9](https://user-images.githubusercontent.com/115881685/211007211-dab827f3-66d8-47a3-a098-474d91da4355.JPG)
 
+## Step 4: Install cloudformation plugin.
+
+In the jenkins dashboard, click **manage jenkins** and then click **manage plugin,** click **available**, search **cloudformation**, then select it, click **install without restart**, then **restart jenkins**
+
+## Step 5: Run Cft using using Cft Plugin
+
+Go back to the jenkins home page and select **new item** to create a job.
+
+In the **enter an item name** box, type **cftdemo-jenkinsplugin**
+
+Click **freestyle project** and enter **ok**
+
+![jenkins 10](https://user-images.githubusercontent.com/115881685/211030585-36f7142b-05d4-44c4-9542-b19b9fcac5a6.JPG)
+
+In the new page that has opened, scroll down down to source code management, click Git, go to your github account that has a [cloudformation-demo ](https://github.com/georgeonalo/cloudformation-demo)repository that has a **jenkinsfile** and a **simplests3cft.json** script
+
+Copy the **Cloudformatiom-demo** url and paste it in the **Repository URL** box. Under **Credentials**, click **add jenkins**, provide your Github **user ID and password**, leave the other options blank.
+
+![jenkins 14](https://user-images.githubusercontent.com/115881685/211033697-9c18c9ae-6651-496f-8ec6-15a8ed7c8208.JPG)
+![jenkins 13](https://user-images.githubusercontent.com/115881685/211033774-96bbc1b6-e3aa-471c-bce5-c309ca1e1636.JPG)
+
+Scroll down to **Build Environment** and click Create **AWS Cloud Formation stack**, enter **""simplests3cft.json""** into the **.json box** and enter **"jenkinscftplugin-s3"** into the **Stack name** field.
+
+
+Go to the aws console and create an IAM user that only has access to **Cloudformation** and **S3**, we are doing this for security purposes. When you create the user, an access key and secret key will be generated, copy both and paste it under the **AWS access key** and **AWS secrete key** field  respectively in the jenkins job. Uncheck **automatically delete stack**
+
+Click save
+
+![jenkins 15](https://user-images.githubusercontent.com/115881685/211038303-5c0fcbcc-49e4-4674-afac-259bc26a9941.JPG)
+![16](https://user-images.githubusercontent.com/115881685/211041114-c7ed60cb-abc1-46ae-a9d7-71ee23146cd9.JPG)
+
+
+Now u=in the next page that opens click **Build now** so that we can manually trigger the build job, we will automate this task later.
+
+![jenkins 16](https://user-images.githubusercontent.com/115881685/211039138-629d75c5-bf05-4bf4-8e05-8b0a9f08e8f2.JPG)
+
+Click **#1** beside the build job display in the bottom left hand corner of the page, click **console output** to see the system logs of the buid job.
+
+The system logs shows that Cloudformation stack is been created
+
+![jenkins17](https://user-images.githubusercontent.com/115881685/211040406-96da135b-f419-4abe-9ae1-f08d090e1d64.JPG)
+![18](https://user-images.githubusercontent.com/115881685/211041201-36850787-232e-4c49-a142-5d610bce068c.JPG)
+
+
+To comfirm the if CFT stack has been create go to cloudformation in the AWS console.
+
+![19](https://user-images.githubusercontent.com/115881685/211040958-99208dfb-3a44-4fb9-9b39-d20d9486584b.JPG)
+
+
 
 
 
