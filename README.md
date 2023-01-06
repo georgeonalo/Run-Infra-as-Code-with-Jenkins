@@ -25,7 +25,7 @@ log into your **aws console** and go to ec2 service, click on **launch instance*
 
 ![jenkins  1](https://user-images.githubusercontent.com/115881685/210998997-336f1467-3281-41be-830a-036d66fe926b.JPG)
 
-scroll down and choose the **amazon linux 2 AMI under the free tier
+scroll down and choose the **amazon linux 2 AMI under the free tier**
 
 ![jenkins  2](https://user-images.githubusercontent.com/115881685/211000502-994a3b18-2bb5-468a-bc5d-3eb2d716b98c.JPG)
 
@@ -47,25 +47,25 @@ Go to the EC2 home page to see your instance being created, when the instance is
 
 Run the following command to install jenkins on the ec2.
 
-sudo yum update –y
+- sudo yum update –y
 
-sudo wget -O /etc/yum.repos.d/jenkins.repo \ https://pkg.jenkins.io/redhat-stable/jenkins.repo
+- sudo wget -O /etc/yum.repos.d/jenkins.repo \ https://pkg.jenkins.io/redhat-stable/jenkins.repo
 
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+- sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
  
-sudo yum upgrade
+- sudo yum upgrade
 
-sudo amazon-linux-extras install java-openjdk11 -y
+- sudo amazon-linux-extras install java-openjdk11 -y
 
-sudo yum install jenkins -y
+- sudo yum install jenkins -y
 
-sudo systemctl enable jenkins
+- sudo systemctl enable jenkins
 
-sudo systemctl start jenkins
+- sudo systemctl start jenkins
 
 Finally run this command to see if your jenkins is up and running:
 
-sudo systemctl status jenkins
+- sudo systemctl status jenkins
 
 ![jenkins 7](https://user-images.githubusercontent.com/115881685/211004063-86f24a35-b929-48b4-b23a-06e9fc29ce8e.JPG)
 
@@ -147,9 +147,9 @@ To comfirm the if CFT stack has been create go to cloudformation in the AWS cons
  
  In the shell, run the following command:
  
- sudo yum update
+ - sudo yum update
  
- sudo yum install awscli
+ - sudo yum install awscli
  
  Run "aws configure" to verify that awscli is installed correctly
  
@@ -197,7 +197,7 @@ Go to cloudformation in the AWS console to see the s3bucket stack.
 
 This brings us to the end of the project.
 
-Note: take down all the resources created in the AWS consol to avoid charges
+**Note:** take down all the resources created in the AWS consol to avoid charges
 
 
 
