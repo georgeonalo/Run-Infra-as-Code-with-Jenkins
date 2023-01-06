@@ -195,6 +195,9 @@ Go to cloudformation in the AWS console to see the s3bucket stack.
 ![27](https://user-images.githubusercontent.com/115881685/211061492-399cf2f6-88ee-469f-9752-b3a904c96e98.JPG)
 ![28](https://user-images.githubusercontent.com/115881685/211061544-43fe5058-be3b-4dbb-8e0f-03f8bcf9790d.JPG)
 
+This brings us to the end of the project.
+
+Note: take down all the resources created in the AWS consol to avoid charges
 
 
 
@@ -219,12 +222,6 @@ Go to cloudformation in the AWS console to see the s3bucket stack.
 
 
 
-Click this link: [part one](https://youtu.be/b6z6i3Lrp04) for a short video tutorial on how to execute the project
 
-
-## Part 2
-
-
-Click this link: [Part two](https://youtu.be/XnRqGMSCQyY) for instructions on how to execute the second part of the project.
 
 
