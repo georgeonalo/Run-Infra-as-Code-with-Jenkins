@@ -29,7 +29,7 @@ scroll down and choose the **amazon linux 2 AMI under the free tier
 
 ![jenkins  2](https://user-images.githubusercontent.com/115881685/211000502-994a3b18-2bb5-468a-bc5d-3eb2d716b98c.JPG)
 
-scroll down and select the **t2.micro under instance type**
+scroll down and select the **t2.micro** under **instance type**
 
 ![jenkins 3](https://user-images.githubusercontent.com/115881685/211000795-bb27bdcb-1cef-479f-a559-31faff089f8b.JPG)
 
@@ -68,6 +68,34 @@ Finally run this command to see if your jenkins is up and running:
 sudo systemctl status jenkins
 
 ![jenkins 7](https://user-images.githubusercontent.com/115881685/211004063-86f24a35-b929-48b4-b23a-06e9fc29ce8e.JPG)
+
+## Step 3: Configuring Jenkins
+
+Jenkins is now installed and running on your EC2 instance. To configure Jenkins:
+
+Connect to http://<your_server_public_DNS>:8080 from your browser. You will be able to access Jenkins through its management interface:
+
+![image](https://user-images.githubusercontent.com/115881685/211005628-22ea9d87-5f70-4280-a4a3-985781ab1637.png)
+As prompted, enter the password found in /var/lib/jenkins/secrets/initialAdminPassword.
+
+Use the following command to display this password:
+
+sudo cat **/var/lib/jenkins/secrets/initialAdminPassword**
+
+The Jenkins installation script directs you to the **Customize Jenkins page**. Click **Install suggested plugins**.
+
+![jenkins 8](https://user-images.githubusercontent.com/115881685/211006367-90d8125a-c107-477b-a5f3-4d70c3f74dbe.JPG)
+
+Once the installation is complete, the **Create First Admin User** will open. Enter your information, and then select **Save** and **Continue**.
+
+![jenkins 9 create a new user](https://user-images.githubusercontent.com/115881685/211006652-e41e4410-fd1d-4795-9a79-561037b052e1.JPG)
+
+Once this is done, you will be taken to the home page.
+![welcome to jenkins 9](https://user-images.githubusercontent.com/115881685/211007211-dab827f3-66d8-47a3-a098-474d91da4355.JPG)
+
+
+
+
 
     
     
