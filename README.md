@@ -154,7 +154,23 @@ To comfirm the if CFT stack has been create go to cloudformation in the AWS cons
  Run "aws configure" to verify that awscli is installed correctly
  
  ![20](https://user-images.githubusercontent.com/115881685/211050349-a0b74d8c-5a61-4921-afad-bda7a39a1ba8.JPG)
+ 
+ 
+## Step 7: jenkinsfile
 
+[jenkinsfile](https://github.com/georgeonalo/cloudformation-demo/blob/main/Jenkinsfile) is a file which defines a pipeline and its stages, e.g build, test and deploy.
+
+This particular [jenkinsfile](https://github.com/georgeonalo/cloudformation-demo/blob/main/Jenkinsfile) only has one stage, and within the file there is a powerful cli command that enable us to create cloudformation stack.
+
+![jenkinsfile](https://user-images.githubusercontent.com/115881685/211053362-d42ed433-2d64-402a-9316-a8e8dba1380a.JPG)
+![jenkinsfile2](https://user-images.githubusercontent.com/115881685/211053724-4c57118f-a08d-4702-af46-c95b786c7197.JPG)
+
+Now in other to successfully create cloudformation stack, we need to grant our **Ec2 instance Role** **permission/policy to create cloudformation and S3 bucket**
+
+
+![jenkins 20](https://user-images.githubusercontent.com/115881685/211054934-eed45148-b9e3-4b3f-8079-0a4e3003db99.JPG)
+
+## Step 8
 
 
 
