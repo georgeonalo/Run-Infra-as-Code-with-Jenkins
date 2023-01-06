@@ -177,14 +177,29 @@ Go to **jenkins dashboard**, click **New item**. in the **Enter an item name** f
 
 ![22](https://user-images.githubusercontent.com/115881685/211056985-f0f84623-0f73-46c6-a8e5-707f8469db62.JPG)
 
-Scroll down to pipeline under Advanced Project Options, click the Defination field and select pipeline script from SCM, under SCM, select Git, copy the cloudformation url from your repository and paste it in the job, and then add credentials. click save.
+Scroll down to **pipeline** under **Advanced Project Options**, click the **Defination** field and select **pipeline script from SCM**, under **SCM**, select **Git**, copy the cloudformation url from your repository and paste it in the job, and then add **credentials**. **click save**.
 
 ![23](https://user-images.githubusercontent.com/115881685/211058998-a5b730d6-f573-47d5-95f8-4054c9434c4a.JPG)
 ![24](https://user-images.githubusercontent.com/115881685/211059058-c74acd77-88c0-49ea-8310-1025817e2818.JPG)
 
-Click on Build Now, so that the job can be manually triggered.
+Click on **Build Now**, so that the job can be manually triggered.
 
 ![25](https://user-images.githubusercontent.com/115881685/211059297-45aea607-79d0-4dca-9772-cc916cd0a312.JPG)
+
+We can see **submit stack** which is the name of the stage comming from **jenkinsfile.** Click **#1** and click **console output** to reveal the **system logs**
+
+![26](https://user-images.githubusercontent.com/115881685/211061046-0cf45796-c135-4e9d-997f-99bc01ac299c.JPG)
+
+Go to cloudformation in the AWS console to see the s3bucket stack.
+
+![27](https://user-images.githubusercontent.com/115881685/211061492-399cf2f6-88ee-469f-9752-b3a904c96e98.JPG)
+![28](https://user-images.githubusercontent.com/115881685/211061544-43fe5058-be3b-4dbb-8e0f-03f8bcf9790d.JPG)
+
+
+
+
+
+
 
 
 
