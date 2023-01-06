@@ -107,7 +107,7 @@ Click **freestyle project** and enter **ok**
 
 ![jenkins 10](https://user-images.githubusercontent.com/115881685/211030585-36f7142b-05d4-44c4-9542-b19b9fcac5a6.JPG)
 
-In the new page that has opened, scroll down down to source code management, click Git, go to your github account that has a [cloudformation-demo ](https://github.com/georgeonalo/cloudformation-demo)repository that has a [jenkinsfile](https://github.com/georgeonalo/cloudformation-demo/blob/main/Jenkinsfile) and a [simplests3cft.json](https://github.com/georgeonalo/cloudformation-demo/blob/main/simplests3cft.json) script
+In the new page that has opened, scroll down down to **source code management**, click **Git**, go to your github account that has a [cloudformation-demo ](https://github.com/georgeonalo/cloudformation-demo)repository that has a [jenkinsfile](https://github.com/georgeonalo/cloudformation-demo/blob/main/Jenkinsfile) and a [simplests3cft.json](https://github.com/georgeonalo/cloudformation-demo/blob/main/simplests3cft.json) script
 
 Copy the **Cloudformatiom-demo** url and paste it in the **Repository URL** box. Under **Credentials**, click **add jenkins**, provide your Github **user ID and password**, leave the other options blank.
 
