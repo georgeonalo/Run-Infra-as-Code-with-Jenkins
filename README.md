@@ -119,17 +119,17 @@ Scroll down to **Build Environment** and click Create **AWS Cloud Formation stac
 
 Go to the aws console and create an IAM user that only has access to **Cloudformation** and **S3**, we are doing this for security purposes. When you create the user, an access key and secret key will be generated, copy both and paste it under the **AWS access key** and **AWS secrete key** field  respectively in the jenkins job. Uncheck **automatically delete stack**
 
-Click save
+Click **save**
 
 ![jenkins 15](https://user-images.githubusercontent.com/115881685/211038303-5c0fcbcc-49e4-4674-afac-259bc26a9941.JPG)
 ![16](https://user-images.githubusercontent.com/115881685/211041114-c7ed60cb-abc1-46ae-a9d7-71ee23146cd9.JPG)
 
 
-Now u=in the next page that opens click **Build now** so that we can manually trigger the build job, we will automate this task later.
+Now in the next page that opens click **Build now** so that we can manually trigger the build job, we will automate this task later.
 
 ![jenkins 16](https://user-images.githubusercontent.com/115881685/211039138-629d75c5-bf05-4bf4-8e05-8b0a9f08e8f2.JPG)
 
-Click **#1** beside the build job display in the bottom left hand corner of the page, click **console output** to see the system logs of the buid job.
+Click **#1** beside the build job display in the bottom left hand corner of the page, click **console output** to see the system logs of the build job.
 
 The system logs shows that Cloudformation stack is been created
 
@@ -137,7 +137,7 @@ The system logs shows that Cloudformation stack is been created
 ![18](https://user-images.githubusercontent.com/115881685/211041201-36850787-232e-4c49-a142-5d610bce068c.JPG)
 
 
-To comfirm the if CFT stack has been create go to cloudformation in the AWS console.
+To comfirm the if cft stack has been created go to cloudformation in the AWS console.
 
 ![19](https://user-images.githubusercontent.com/115881685/211040958-99208dfb-3a44-4fb9-9b39-d20d9486584b.JPG)
 
@@ -158,7 +158,7 @@ To comfirm the if CFT stack has been create go to cloudformation in the AWS cons
  
 ## Step 7: jenkinsfile
 
-[jenkinsfile](https://github.com/georgeonalo/cloudformation-demo/blob/main/Jenkinsfile) is a file which defines a pipeline and its stages, e.g build, test and deploy.
+[jenkinsfile](https://github.com/georgeonalo/cloudformation-demo/blob/main/Jenkinsfile) is a file which defines a pipeline and its stages, e.g **build, test and deploy**.
 
 This particular [jenkinsfile](https://github.com/georgeonalo/cloudformation-demo/blob/main/Jenkinsfile) only has one stage, and within the file there is a powerful cli command that enable us to create cloudformation stack.
 
