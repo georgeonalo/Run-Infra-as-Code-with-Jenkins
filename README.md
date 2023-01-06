@@ -141,6 +141,16 @@ To comfirm the if CFT stack has been create go to cloudformation in the AWS cons
 
 ![19](https://user-images.githubusercontent.com/115881685/211040958-99208dfb-3a44-4fb9-9b39-d20d9486584b.JPG)
 
+ ## Step 6: Install AWS CLI without keys using SSM Session Manager
+ 
+ Go to the **AWS console** and search for **session manager**, once there, Click on **quick setup** and follow the instructions, once done, scroll down to **remote connect** under **features**, click it. Click **start session**, this reveals our **jenkins EC2 instance**, click **start session** again to open up a **shell**
+ 
+ In the shell, run the following command:
+ 
+ sudo yum update
+ 
+ sudo yum installn awscli
+ 
 
 
 
