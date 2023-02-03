@@ -47,21 +47,16 @@ Go to the EC2 home page to see your instance being created, when the instance is
 
 Run the following command to install jenkins on the ec2.
 
-- sudo yum update –y
-
-- sudo wget -O /etc/yum.repos.d/jenkins.repo \ https://pkg.jenkins.io/redhat-stable/jenkins.repo
-
-- sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
- 
-- sudo yum upgrade
-
-- sudo amazon-linux-extras install java-openjdk11 -y
-
-- sudo yum install jenkins -y
-
-- sudo systemctl enable jenkins
-
-- sudo systemctl start jenkins
+```
+sudo yum update –y
+sudo wget -O /etc/yum.repos.d/jenkins.repo \ https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+sudo yum upgrade
+sudo amazon-linux-extras install java-openjdk11 -y
+sudo yum install jenkins -y
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+```
 
 Finally run this command to see if your jenkins is up and running:
 
