@@ -75,7 +75,9 @@ As prompted, enter the password found in /var/lib/jenkins/secrets/initialAdminPa
 
 Use the following command to display this password:
 
-sudo cat **/var/lib/jenkins/secrets/initialAdminPassword**
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
 
 The Jenkins installation script directs you to the **Customize Jenkins page**. Click **Install suggested plugins**.
 
@@ -141,10 +143,12 @@ To comfirm the if cft stack has been created go to cloudformation in the AWS con
  Go to the **AWS console** and search for **session manager**, once there, Click on **quick setup** and follow the instructions, once done, scroll down to **remote connect** under **features**, click it. Click **start session**, this reveals our **jenkins EC2 instance**, click **start session** again to open up a **shell**
  
  In the shell, run the following command:
- 
- - sudo yum update
- 
- - sudo yum install awscli
+
+ ```
+ sudo yum update
+ sudo yum install awscli
+ ```
+
  
  Run "aws configure" to verify that awscli is installed correctly
  
