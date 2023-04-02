@@ -1,4 +1,4 @@
-# Install Jenkins on EC2 in ONE Click | Run CloudFormation from Github using Jenkins
+# Install Jenkins on EC2 and Run CloudFormation from Github using Jenkins
 
 In this project, we are going to carry out the following:
 
