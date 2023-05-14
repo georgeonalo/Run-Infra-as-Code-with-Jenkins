@@ -12,7 +12,7 @@ In this project, we are going to carry out the following:
 
 ## Jenkins Demo Overview/Workflow
 
-![jenkins cloudformation](https://github.com/georgeonalo/Run-Infra-as-Code-with-Jenkins/assets/115881685/c58c6066-c2d7-4ac4-bf25-ef7b35185a8e)
+![Untitled Diagram (8)](https://github.com/georgeonalo/Run-Infra-as-Code-with-Jenkins/assets/115881685/3d646e1c-c1b2-4c85-a313-2894fefe99d1)
 
 ## Prerequisite
 - Aws account
