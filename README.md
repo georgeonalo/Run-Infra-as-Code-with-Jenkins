@@ -196,7 +196,7 @@ Go to **jenkins dashboard**, click **New item**. in the **Enter an item name** f
 Scroll down to **pipeline** under **Advanced Project Options**, click the **Defination** field and select **pipeline script from SCM**, under **SCM**, select **Git**, copy the cloudformation url from your repository and paste it in the job, and then add **credentials**. **click save**.
 
 ![image](https://github.com/georgeonalo/Run-Infra-as-Code-with-Jenkins/assets/115881685/4ec060e1-f4c0-4524-9706-449d9769f976)
-![24](https://user-images.githubusercontent.com/115881685/211059058-c74acd77-88c0-49ea-8310-1025817e2818.JPG)
+
 
 Click on **Build Now**, so that the job can be manually triggered.
 
@@ -212,7 +212,6 @@ We can see **submit stack** which is the name of the stage comming from **jenkin
 Go to cloudformation in the AWS console to see the s3bucket stack.
 
 ![image](https://github.com/georgeonalo/Run-Infra-as-Code-with-Jenkins/assets/115881685/2c265be3-21c9-4058-8bd3-803c4a46a58b)
-![28](https://user-images.githubusercontent.com/115881685/211061544-43fe5058-be3b-4dbb-8e0f-03f8bcf9790d.JPG)
 
 This brings us to the end of the project.
 
